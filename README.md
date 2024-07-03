@@ -41,7 +41,6 @@ To run this project locally, follow these steps:
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/MANOHAR-NV/portfolio.git
 Navigate to the project directory:
 bash
 Copy code
