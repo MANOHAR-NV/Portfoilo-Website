@@ -1,7 +1,5 @@
 Manohar N V Portfolio
-This repository contains the code for the personal portfolio website of Manohar N V. 
-The website showcases my skills, projects, education, and services offered.
-It is built using HTML, CSS, and JavaScript, and includes responsive design and interactive elements.
+This repository contains the code for the personal portfolio website of Manohar N V. The website showcases my skills, projects, education, and services offered. It is built using HTML, CSS, and JavaScript, and includes responsive design and interactive elements.
 
 Table of Contents
 Project Structure
@@ -9,6 +7,9 @@ Technologies Used
 Features
 Installation
 Usage
+Customization
+Contact Form
+Animations
 License
 Project Structure
 The project structure is as follows:
@@ -43,6 +44,7 @@ To run this project locally, follow these steps:
 Clone the repository:
 bash
 Copy code
+git clone https://github.com/yourusername/portfolio.git
 Navigate to the project directory:
 bash
 Copy code
@@ -59,7 +61,6 @@ The contact form is designed to validate input fields and provide error messages
 
 Animations
 Scroll reveal animations and typed.js effects are used to enhance user interaction. You can customize these in the script.js file.
-
 
 Feel free to explore and modify the project to suit your needs. If you have any questions or need further assistance, please contact me through my LinkedIn or email.
 
