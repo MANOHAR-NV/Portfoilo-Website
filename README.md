@@ -1,5 +1,7 @@
 Manohar N V Portfolio
-This repository contains the code for the personal portfolio website of Manohar N V. The website showcases my skills, projects, education, and services offered. It is built using HTML, CSS, and JavaScript, and includes responsive design and interactive elements.
+This repository contains the code for the personal portfolio website of Manohar N V. 
+The website showcases my skills, projects, education, and services offered.
+It is built using HTML, CSS, and JavaScript, and includes responsive design and interactive elements.
 
 Table of Contents
 Project Structure
@@ -58,8 +60,6 @@ The contact form is designed to validate input fields and provide error messages
 Animations
 Scroll reveal animations and typed.js effects are used to enhance user interaction. You can customize these in the script.js file.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Feel free to explore and modify the project to suit your needs. If you have any questions or need further assistance, please contact me through my LinkedIn or email.
 
