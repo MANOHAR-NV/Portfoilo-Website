@@ -1,378 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="images/png" href="images/portfolio1.png" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
-    <!--MAIN CSS-->
-    <link rel="stylesheet" href="style.css" />
-    <title>Manohar Portfolio</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="images/png" href="images/portfolio1.png" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <body>
-    <!--HEADER DESIGN-->
-    <header class="header">
-      <a href="#home" class="logo">Manohar <span>N V</span></a>
-      <i class="bx bx-menu" id="menu-icon"></i>
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#education">Education</a>
-        <a href="#services">Services</a>
-        <a href="#project">Projects</a>
-        <a href="#contact">Contact Me</a>
-      </nav>
-    </header>
+  <!--MAIN CSS-->
+  <link rel="stylesheet" href="style.css" />
+  <title>Manohar Portfolio</title>
+</head>
 
-    <!--HOME SECTION DESIGN-->
+<body>
+  <!--PRELOADER-->
+  <div id="preloader"></div>
 
-    <section class="home" id="home">
-      <div class="home-content">
-        <h1>Hi, It's <span>Manohar</span></h1>
-        <h3>I'm a <span class="multi-text"></span></h3>
-        <p>
-          I am a versatile technology professional specializing in web
-          development and design. I create technically sound, visually appealing
-          websites that offer intuitive and smooth functionality. My expertise
-          in modern frameworks ensures interactive, engaging, and responsive
-          user experiences across all devices.
-        </p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/manoharnv"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://github.com/MANOHAR-NV"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a href="https://www.youtube.com/@ManoharNV18"
-            ><i class="bx bxl-youtube"></i
-          ></a>
-          <a href="https://www.instagram.com/_manohar_nv?igsh=cGMxNHIxd2plYW1w"
-            ><i class="bx bxl-instagram"></i
-          ></a>
-        </div>
-        <div class="btn-group">
-          <button class="btn" id="downloadButton">Download CV</button>
-          <a href="#" class="btn">More About Me</a>
+  <!--HEADER DESIGN-->
+  <header class="header">
+    <a href="#home" class="logo">Manohar <span>N V</span></a>
+    <i class="bx bx-menu" id="menu-icon" aria-label="Menu Icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#education">Education</a>
+      <a href="#services">Services</a>
+      <a href="#project">Projects</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
+  </header>
+
+
+  <!--HOME SECTION DESIGN-->
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, It's <span>Manohar</span></h1>
+      <h3><span class="multi-text"></span></h3>
+      <p>
+        I am a versatile technology professional specializing in web
+        development and design. I create technically sound, visually appealing
+        websites that offer intuitive and smooth functionality. My expertise
+        in modern frameworks ensures interactive, engaging, and responsive
+        user experiences across all devices.
+      </p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/manoharnv"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/MANOHAR-NV"><i class="bx bxl-github"></i></a>
+        <a href="https://www.youtube.com/@ManoharNV18"><i class="bx bxl-youtube"></i></a>
+        <a href="https://www.instagram.com/_manohar_nv?igsh=cGMxNHIxd2plYW1w"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <div class="btn-group">
+        <button class="btn" id="downloadButton">Download CV</button>
+      </div>
+    </div>
+    <div class="home-img">
+      <img src="images/Manohar_Black.png" alt="profile picture" />
+    </div>
+  </section>
+
+  <!--EDUCATION SECTION-->
+
+  <section class="education" id="education">
+    <h2 class="heading">Education</h2>
+
+    <div class="timeline-items">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2016</div>
+        <div class="timeline-content">
+          <h3><i class="fa-solid fa-school"></i>High School</h3>
+          <p>
+            Completed high school with a focus on science and technology.
+            Developed a strong foundation in mathematics and computer science.
+          </p>
         </div>
       </div>
-      <div class="home-img">
-        <img src="images/Manohar_Black.png" alt="profile picture" />
-      </div>
-    </section>
-
-    <!--EDUCATION SECTION-->
-
-    <section class="education" id="education">
-      <h2 class="heading">Education</h2>
-
-      <div class="timeline-items">
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2016</div>
-          <div class="timeline-content">
-            <h3><i class="fa-solid fa-school"></i>High School</h3>
-            <p>
-              Completed high school with a focus on science and technology.
-              Developed a strong foundation in mathematics and computer science.
-            </p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2019</div>
-          <div class="timeline-content">
-            <h3><i class="fa-solid fa-school"></i>PUC</h3>
-            <p>
-              Pursued Pre-University Course (PUC) with a specialization in
-              Computer Science. Gained in-depth knowledge of programming and
-              software development.
-            </p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2022</div>
-          <div class="timeline-content">
-            <h3><i class="fa-solid fa-graduation-cap"></i>BCA</h3>
-            <p>
-              Graduated with a Bachelor of Computer Applications (BCA). Acquired
-              extensive skills in software development, database management, and
-              web technologies.
-            </p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2024</div>
-          <div class="timeline-content">
-            <h3><i class="fa-solid fa-graduation-cap"></i>MCA</h3>
-            <p>
-              Completed Master of Computer Applications (MCA). Specialized in
-              advanced web development, software engineering, and project
-              management.
-            </p>
-          </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2019</div>
+        <div class="timeline-content">
+          <h3><i class="fa-solid fa-school"></i>PUC</h3>
+          <p>
+            Pursued Pre-University Course (PUC) with a specialization in
+            Computer Science. Gained in-depth knowledge of programming and
+            software development.
+          </p>
         </div>
       </div>
-    </section>
-
-    <!--Service section-->
-    <section class="services" id="services">
-      <h2 class="heading">Services</h2>
-
-      <div class="services-container">
-        <div class="service-box">
-          <div class="service-info">
-            <i class="fa-solid fa-globe"></i>
-            <h4>Web developer</h4>
-            <p>
-              Building responsive and dynamic websites tailored to your needs
-              using the latest web technologies.
-            </p>
-          </div>
-        </div>
-        <div class="service-box">
-          <div class="service-info">
-            <i class="fa-solid fa-desktop"></i>
-            <h4>Frontend Designer</h4>
-            <p>
-              Creating visually appealing and user-friendly interfaces that
-              enhance user engagement and satisfaction.
-            </p>
-          </div>
-        </div>
-        <div class="service-box">
-          <div class="service-info">
-            <i class="fa-solid fa-code"></i>
-            <h4>BackEnd Developer</h4>
-            <p>
-              Developing robust and scalable backend systems to support your
-              applications and ensure seamless performance.
-            </p>
-          </div>
-        </div>
-        <div class="service-box">
-          <div class="service-info">
-            <i class="fa-solid fa-gears"></i>
-            <h4>Software Tester</h4>
-            <p>
-              Conducting comprehensive testing to ensure the quality and
-              reliability of your software applications.
-            </p>
-          </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2022</div>
+        <div class="timeline-content">
+          <h3><i class="fa-solid fa-graduation-cap"></i>BCA</h3>
+          <p>
+            Graduated with a Bachelor of Computer Applications (BCA). Acquired
+            extensive skills in software development, database management, and
+            web technologies.
+          </p>
         </div>
       </div>
-    </section>
-
-    <!--PROJECT SECTION-->
-
-    <section class="project" id="project">
-      <h2 class="heading">Latest <span>Projects</span></h2>
-      <div class="project-container">
-        <div class="project-box">
-          <img src="images/car.jpeg" />
-          <div class="project-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-              corrupti iste accusantium similique aspernatur nihil temporibus
-              consequatur, rerum eveniet saepe provident. Nemo nesciunt eligendi
-              dicta perferendis corrupti ratione accusamus explicabo.
-            </p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-          </div>
-        </div>
-
-        <div class="project-box">
-          <img src="images/tv.jpeg" />
-          <div class="project-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-              corrupti iste accusantium similique aspernatur nihil temporibus
-              consequatur, rerum eveniet saepe provident. Nemo nesciunt eligendi
-              dicta perferendis corrupti ratione accusamus explicabo.
-            </p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-          </div>
-        </div>
-
-        <div class="project-box">
-          <img src="images/car.jpeg" />
-          <div class="project-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-              corrupti iste accusantium similique aspernatur nihil temporibus
-              consequatur, rerum eveniet saepe provident. Nemo nesciunt eligendi
-              dicta perferendis corrupti ratione accusamus explicabo.
-            </p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-          </div>
-        </div>
-
-        <div class="project-box">
-          <img src="images/tv.jpeg" />
-          <div class="project-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-              corrupti iste accusantium similique aspernatur nihil temporibus
-              consequatur, rerum eveniet saepe provident. Nemo nesciunt eligendi
-              dicta perferendis corrupti ratione accusamus explicabo.
-            </p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-          </div>
-        </div>
-
-        <div class="project-box">
-          <img src="images/car.jpeg" />
-          <div class="project-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-              corrupti iste accusantium similique aspernatur nihil temporibus
-              consequatur, rerum eveniet saepe provident. Nemo nesciunt eligendi
-              dicta perferendis corrupti ratione accusamus explicabo.
-            </p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-          </div>
-        </div>
-
-        <div class="project-box">
-          <img src="images/car.jpeg" />
-          <div class="project-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-              corrupti iste accusantium similique aspernatur nihil temporibus
-              consequatur, rerum eveniet saepe provident. Nemo nesciunt eligendi
-              dicta perferendis corrupti ratione accusamus explicabo.
-            </p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-          </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2024</div>
+        <div class="timeline-content">
+          <h3><i class="fa-solid fa-graduation-cap"></i>MCA</h3>
+          <p>
+            Completed Master of Computer Applications (MCA). Specialized in
+            advanced web development, software engineering, and project
+            management.
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!--Contact us section-->
-    <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me</span></h2>
+  <!--Service section-->
+  <section class="services" id="services">
+    <h2 class="heading">Services</h2>
 
-      <form id="contactForm">
-        <div class="input-group">
-          <div class="input-box">
-            <input
-              type="text"
-              placeholder="Full Name"
-              id="name"
-              class="item"
-              autocomplete="off"
-            />
-            <div class="error-txt">Full Name can't be blank</div>
-            <input
-              type="email"
-              placeholder="Email"
-              id="email"
-              class="item"
-              autocomplete="off"
-            />
-            <div class="error-txt">Email Address can't be blank</div>
-          </div>
-          <div class="input-box">
-            <input
-              type="number"
-              placeholder="Phone number"
-              id="phone"
-              class="item"
-              autocomplete="off"
-            />
-            <div class="error-txt">Phone Number can't be blank</div>
-            <input
-              type="text"
-              placeholder="Subject"
-              id="subject"
-              class="item"
-              autocomplete="off"
-            />
-            <div class="error-txt">Subject can't be blank</div>
-          </div>
+    <div class="services-container">
+      <div class="service-box">
+        <div class="service-info">
+          <i class="fa-solid fa-globe"></i>
+          <h4>Web developer</h4>
+          <p>
+            Building responsive and dynamic websites tailored to your needs
+            using the latest web technologies.
+          </p>
         </div>
+      </div>
+      <div class="service-box">
+        <div class="service-info">
+          <i class="fa-solid fa-desktop"></i>
+          <h4>Frontend Designer</h4>
+          <p>
+            Creating visually appealing and user-friendly interfaces that
+            enhance user engagement and satisfaction.
+          </p>
+        </div>
+      </div>
+      <div class="service-box">
+        <div class="service-info">
+          <i class="fa-solid fa-code"></i>
+          <h4>BackEnd Developer</h4>
+          <p>
+            Developing robust and scalable backend systems to support your
+            applications and ensure seamless performance.
+          </p>
+        </div>
+      </div>
+      <div class="service-box">
+        <div class="service-info">
+          <i class="fa-solid fa-gears"></i>
+          <h4>Software Tester</h4>
+          <p>
+            Conducting comprehensive testing to ensure the quality and
+            reliability of your software applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="input-group-2">
-          <textarea
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-            class="item"
-            autocomplete="off"
-          ></textarea>
-          <div class="error-txt">Message can't be blank</div>
+  <!--PROJECT SECTION-->
+
+  <section class="project" id="project">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="project-container">
+      <div class="project-box">
+        <img src="images/weather.png" alt="Weather App">
+        <div class="project-layer">
+          <h4>Weather App</h4>
+          <p>Real-Time Weather Updates</p>
+          <a href="https://weatherappmnv.netlify.app/">Demo</a>
+        </div>
+        <a href="https://weatherappmnv.netlify.app/" class="btn">Live</a>
+      </div>
+
+      <div class="project-box">
+        <img src="images/search.png" alt="Image Search Engine">
+        <div class="project-layer">
+          <h4>Image Search Engine</h4>
+          <p>Your Ultimate Image Search Engine</p>
+          <a href="https://imagesearchsite.netlify.app/">Demo</a>
+        </div>
+        <a href="https://imagesearchsite.netlify.app/" class="btn">Live</a>
+      </div>
+
+      <div class="project-box">
+        <img src="images/QR.png" alt="QR Code Generator">
+        <div class="project-layer">
+          <h4>QR Code Generator</h4>
+          <p>Instant QR Code Generator</p>
+          <a href="https://qrcodegeneratorcode.netlify.app/">Demo</a>
+        </div>
+        <a href="https://qrcodegeneratorcode.netlify.app/" class="btn">Live</a>
+      </div>
+
+      <div class="project-box">
+        <img src="images/text.png" alt="Text To Speech">
+        <div class="project-layer">
+          <h4>Text To Speech</h4>
+          <p>Instant Text-to-Speech Converter</p>
+          <a href="https://texttospeechconvertersite.netlify.app/">Demo</a>
+        </div>
+        <a href="https://texttospeechconvertersite.netlify.app/" class="btn">Live</a>
+      </div>
+
+      <div class="project-box">
+        <img src="images/dev.png" alt="Text To Speech">
+        <div class="project-layer">
+          <h4>Comming Soon</h4>
+          <p>....</p>
+        </div>
+        <a href="h" class="btn">Demo</a>
+      </div>
+
+
+      <div class="project-box">
+        <img src="images/dev.png" alt="Text To Speech">
+        <div class="project-layer">
+          <h4>Comming Soon</h4>
+          <p>....</p>
+        </div>
+        <a href="h" class="btn">Demo</a>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <!--CONTACT ME-->
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="#" class="form">
+      <div class="input-box">
+        <div class="input-field">
+          <input type="text" name="fullName" required />
+          <label>Full Name</label>
+        </div>
+        <div class="input-field">
+          <input type="email" name="email" required />
+          <label>Email Address</label>
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="input-field">
+          <input type="number" name="mobile" required />
+          <label>Mobile Number</label>
+        </div>
+        <div class="input-field">
+          <input type="text" name="email" required />
+          <label>Email Subject</label>
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="input-field">
+          <textarea name="message" id="" cols="30" rows="10" required></textarea>
+          <label>Your Message</label>
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="input-field">
           <button type="submit" class="btn">Send Message</button>
         </div>
-      </form>
-    </section>
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-    <!--Footer section-->
-
-    <footer class="footer">
-      <div class="social">
-        <a href="https://www.linkedin.com/in/manoharnv"
-          ><i class="bx bxl-linkedin"></i
-        ></a>
-        <a href="https://github.com/MANOHAR-NV"
-          ><i class="bx bxl-github"></i
-        ></a>
-        <a href="https://www.youtube.com/@ManoharNV18"
-          ><i class="bx bxl-youtube"></i
-        ></a>
-        <a href="https://www.instagram.com/_manohar_nv?igsh=cGMxNHIxd2plYW1w"
-          ><i class="bx bxl-instagram"></i
-        ></a>
       </div>
+    </form>
+  </section>
 
-      <ul class="list">
-        <li>
-          <a href="#">FAQ</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">About me</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-      <p>&copy; 2024 by Manohar N V. All Rights Reserved.</p>
-    </footer>
+  <!--FOOTER Section-->
+  <footer class="footer">
+    <div class="social">
+      <a href="https://www.linkedin.com/in/manoharnv"><i class="bx bxl-linkedin"></i></a>
+      <a href="https://github.com/MANOHAR-NV"><i class="bx bxl-github"></i></a>
+      <a href="https://www.youtube.com/@ManoharNV18"><i class="bx bxl-youtube"></i></a>
+      <a href="https://www.instagram.com/_manohar_nv?igsh=cGMxNHIxd2plYW1w"><i class="bx bxl-instagram"></i></a>
+    </div>
 
-    <!--Sweetalert js-->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <ul class="copyright">
+      <p>© 2024 by Manohar N V. All Rights Reserved.</p>
+    </ul>
 
-    <!--Scroll Reveal js-->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Scroll Top Button-->
 
-    <!--typed js-->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <a href="#home" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></a>
 
-    <!--Main js-->
+    <!--CUSTOM JAVASCRIPT-->
     <script src="script.js"></script>
-  </body>
+
+    <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          loader.style.display = "none";
+        }, 1500);
+      });
+    </script>
+
+
+</body>
+
 </html>
